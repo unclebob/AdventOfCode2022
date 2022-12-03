@@ -44,6 +44,6 @@
     (should= 70 (sum-of-badges "test-input")))
 
   (it "should solve input"
-    (should= 0 (sum-of-badges "input")))
+    (should= 2738 (sum-of-badges "input")))
 
   )
