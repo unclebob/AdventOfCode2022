@@ -36,5 +36,5 @@
     (should= 26 (get-message-start-position "zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw")))
 
   (it "sovles input"
-    (should= 0 (get-message-start-position (slurp "input"))))
+    (should= 2950 (get-message-start-position (slurp "input"))))
   )
