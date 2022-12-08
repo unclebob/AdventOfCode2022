@@ -16,7 +16,7 @@
     (should= 15 (score-of-strategy [[:rock :paper] [:paper :rock] [:scissors :scissors]]))))
 
 (describe "Playing the actual game"
-  (it "should score the test gamme"
+  (it "should score the test game"
     (should= 12 (score-of-strategy [[:rock :rock] [:paper :rock] [:scissors :rock]]))))
 
 (describe "solutions"
