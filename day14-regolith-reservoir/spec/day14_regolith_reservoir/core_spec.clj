@@ -54,5 +54,5 @@
     (it "solves test input"
       (should= 93 (count-til-blocked "test-input")))
     (it "solves input"
-      (should= 0 (count-til-blocked "input"))))
+      (should= 28594 (count-til-blocked "input"))))
   )
