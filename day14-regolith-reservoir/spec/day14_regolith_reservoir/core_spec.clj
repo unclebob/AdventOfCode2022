@@ -44,11 +44,11 @@
       (should= #{[1 1] [1 2] [1 3] [2 3] [3 3]}
                (build-wall [[1 1] [1 3] [3 3]]))))
 
-  ;(context "Part 1 solution"
-  ;  (it "solves test-input"
-  ;    (should= 24 (count-remaining-sand "test-input")))
-  ;  (it "solves input"
-  ;    (should= 698 (count-remaining-sand "input"))))
+  (context "Part 1 solution"
+    (it "solves test-input"
+      (should= 24 (count-remaining-sand "test-input")))
+    (it "solves input"
+      (should= 698 (count-remaining-sand "input"))))
 
   (context "Part 2 solution"
     (it "solves test input"
